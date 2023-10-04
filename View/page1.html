@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../CSS/style1.css" />
+    <title>Personal Website</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-logo">
+        <a class="logo" href="#">
+          <span>M</span> <span>R</span> <span>T</span> <span>O</span>
+          <span>I</span> <span>N</span> <span>H</span>
+        </a>
+      </div>
+
+      <ul class="nav-links">
+        <li class="link">
+          <a href="#" ><button class="bn30">Home</button></a>
+        </li>
+        <li id="link1" class="link">
+          <a><button class="bn30">Exercises</button></a>
+        </li>
+        <li id="link2" class="link">
+          <a ><button class="bn30">About</button></a>
+        </li>
+        
+      </ul>
+    </nav>
+
+    <header class="container">
+      <div class="content">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <!-- <h4>CREATE YOUR SITE LIKE A PRO</h4> -->
+        <h1>Hi, I'm <span>Thanh Tịnh</span>, Web Developer</h1>
+        <p>
+          Welcome to our website, where everyone can share and explore valuable
+          information.
+        </p>
+      </div>
+      <div class="image" class="image1">
+        <img src="../images/header.png" />
+      </div>
+    </header>
+    <div class="header"></div>
+    <div class="cmt">
+      
+      
+    </div>
+    <div class="container" id="container1">
+      <h2 class="header1">INDIVIDUAL EXERCISES</h2>
+      <div class="slideshow">
+        <div class="card active">
+          <div class="face face1">
+            <div class="content">
+              <img src="../images/img1.png" />
+              <h3>EXERCISES 1</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <a href="https://web3-7scg.onrender.com/Web1/emailList"
+                ><button class="bn632-hover bn26">Read More</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="../images/img2.png" />
+              <h3>EXERCISES 2</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <a href="https://web3-7scg.onrender.com/Web1/emailList"
+                ><button class="bn632-hover bn26">Read More</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="../images/img3.png" />
+              <h3>EXERCISES 3</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <a href="https://web3-7scg.onrender.com/Web1/emailList"
+                ><button class="bn632-hover bn26">Read More</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="../images/img4.jpeg" />
+              <h3>EXERCISES 4</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <a href="https://web3-7scg.onrender.com/Web1/emailList"
+                ><button class="bn632-hover bn26">Read More</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navigation">
+      <button class="bn5" onclick="showCard(1)">1</button>
+      <button class="bn5" onclick="showCard(2)">2</button>
+      <button class="bn5" onclick="showCard(3)">3</button>
+      <button class="bn5" onclick="showCard(4)">4</button>
+    </div>
+    <footer class="container">
+      <span class="blur"></span>
+      <span class="blur"></span>
+      <div class="column">
+        <div class="logo">
+          <img src="../images/footer.png" />
+        </div>
+        <div class="socials">
+          <a href="https://www.youtube.com/channel/UCr4wm3H3_b77-mlPRSNzCYA"
+            ><i class="ri-youtube-line"></i
+          ></a>
+          <a href="https://github.com/mrToInh2003"
+            ><i class="ri-github-line"></i
+          ></a>
+          <a href="https://www.facebook.com/profile.php?id=100011411257097"
+            ><i class="ri-facebook-line"></i
+          ></a>
+        </div>
+      </div>
+      <div class="column">
+        <h4>Learn</h4>
+        <a
+          class="bn31"
+          href="https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_S%C6%B0_ph%E1%BA%A1m_K%E1%BB%B9_thu%E1%BA%ADt_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh"
+          ><span class="bn31span">School</span></a
+        >
+        <a class="bn31" href="#"><span class="bn31span">Delivery</span></a>
+        <a class="bn31" href="https://en.wikipedia.org/wiki/Web_development"
+          ><span class="bn31span">Subject</span></a
+        >
+      </div>
+      <div class="column">
+        <h4>About Us</h4>
+        <a class="bn31" href="../View/page2.html"><span class="bn31span">Blog</span></a>
+      </div>
+    </footer>
+    </script>
+    <script src="../JS/script1.js"></script>
+  </body>
+</html>
